@@ -54,7 +54,7 @@ public class Test {
 			Locator logo = page2.getByAltText("AIG logo");
 			System.out.println("AIG logo displayed?: "+logo.isVisible());
 			System.out.println("AIG logo src: "+logo.getAttribute("src"));
-			page2.click("(//button)[1]");
+			page2.click("//*[@id='selectedCountry']//button[@type='button']");
 			page2.click("//*[contains(text(), 'Australia')]");
 			//			page3.navigate("https://www.facebook.com");
 //			page.waitForLoadState();
