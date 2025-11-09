@@ -2,7 +2,7 @@ package FirstTest;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.Duration;
+// import java.time.Duration;
 import java.util.List;
 
 import com.microsoft.playwright.Browser;
@@ -64,7 +64,7 @@ public class Test {
 //			Page page6 = context2.newPage();
 //					page6.navigate("https://www.hyrtutorials.com");
 //					page6.waitForLoadState();
-			Thread.sleep(Duration.ofSeconds(10));
+			// Thread.sleep(Duration.ofSeconds(10));
 		}
 	}
 }
